@@ -1,7 +1,7 @@
 ---
 layout: index
 title: chrome_webapp_shortcuts
-permalink: projects/chrome_webapp_shortcuts/${filename%.*}.html 
+permalink: projects/chrome_webapp_shortcuts/${file%.*}.html 
 ---
 
 
