@@ -1,3 +1,7 @@
-$LAYOUT_PREFIX_s
-title: $NAME
-permalink: projects/$NAME.html $LAYOUT_PREFIX_e
+---
+layout: index
+title: +chrome_webapp_shortcuts+
+permalink: projects/+chrome_webapp_shortcuts+.html +
+---
+
+
