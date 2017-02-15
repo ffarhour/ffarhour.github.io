@@ -1,3 +1,10 @@
+---
+layout: index
+title: +chrome_webapp_shortcuts+
+permalink: projects/+chrome_webapp_shortcuts+.html +
+---
+
+
 # Chrome Web App Shortcuts
 This repo is a collection of all the chrome webapps I have created to act as shortcuts to some frequently used websites.
 I was bored, so decided to make them look nice.
