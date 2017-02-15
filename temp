@@ -1,0 +1,3 @@
+$LAYOUT_PREFIX_s
+title: $NAME
+permalink: projects/$NAME.html $LAYOUT_PREFIX_e
