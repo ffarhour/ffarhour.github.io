@@ -1,5 +1,7 @@
 ---
 layout: index
+sections:
+    github: https://github.com/ffarhour
 ---
 <h3>
 <a id="who-made-what" class="anchor" href="#who-made-what" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Who made what?</h3>
@@ -13,4 +15,3 @@ layout: index
 
 <h3>
 <a id="more-stuff-coming-soon--" class="anchor" href="#more-stuff-coming-soon--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>More stuff coming soon :-)</h3>
- 
