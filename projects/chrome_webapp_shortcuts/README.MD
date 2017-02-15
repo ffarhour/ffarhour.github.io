@@ -1,7 +1,7 @@
 ---
 layout: index
 title: chrome_webapp_shortcuts
-permalink: projects/chrome_webapp_shortcuts.html 
+permalink: projects/chrome_webapp_shortcuts/docs/README.MD.html 
 ---
 
 
