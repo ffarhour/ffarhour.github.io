@@ -1,3 +1,10 @@
+---
+layout: index
+title: ffmade.me cool stuff
+permalink: projects/ffmade.me/index.html
+sections:
+ github: https://github.com/ffarhour/ffarhour.github.io
+---
 # Cool things about FFMade.me
 I wanted to list down the cool things I've done with this website, so here it is:
 
