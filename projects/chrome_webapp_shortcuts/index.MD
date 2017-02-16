@@ -1,7 +1,7 @@
 ---
 layout: index
 title: chrome_webapp_shortcuts
-permalink: projects/chrome_webapp_shortcuts/README.html
+permalink: projects/chrome_webapp_shortcuts/index.html
 sections:
  github: http://github.com/ffarhour/chrome_webapp_shortcuts.git 
 ---
@@ -11,6 +11,17 @@ sections:
 This repo is a collection of all the chrome webapps I have created to act as shortcuts to some frequently used websites.
 I was bored, so decided to make them look nice.
 
+***
+Current list of webapps:
+- Facebook
+- Twitter
+- Telegram
+- LinkedIn
+- Toodledo
+***
+![Screenshot][capture1]
+[capture1]: img/Capture1.png "Screenshot from Chrome Apps Page"
+***
 ## Note on Pictures
 I do not own any rights to the pictures I have used as logos. I use them under the understanding that they are readily available and are provided by the creators of the websites themselves.
 
