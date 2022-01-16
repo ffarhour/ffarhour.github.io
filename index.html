@@ -1,0 +1,55 @@
+---
+layout: default
+involvements: 
+    - name: Kara Technologies 
+      urlname: kara.tech
+      url: https://kara.tech
+    - name: Asia-NZ Foundation Leadership Network
+      urlname: asianz.org.nz/leadership/
+      url: https://www.asianz.org.nz/leadership/
+    - name: Edmund Hillary Fellowship
+      urlname: stories.ehf.org/...
+      url: https://stories.ehf.org/ehf-fellows-arash-tayebi-sahar-izadi-farmehr-farhour-d0198c871faa?gi=17b421ac88b4
+
+---
+
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-4">
+            <img src="{{site.baseurl}}/assets/images/personal_pics/farmehr-farhour-profile-picture.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-12 col-md-8 col-xl-6">
+            <h1 class="my-3">
+                Hello
+            </h1>
+            <h3 class="mt-3 mb-2">
+                Here's who I am and what I do
+            </h3>
+            <div class="row mt-0 mb-4">
+                <div class="col">
+                    <a href="bio/" role="button" class="btn btn-primary px-3" href="/bio">Bio</a>
+                    <a href="projects/" role="button" class="btn btn-secondary px-3" >Projects</a>
+                </div>
+            </div>
+   
+            <p>
+                I am the co-founder and CTO of Kara Technologies, where I lead a multi-disciplinary team (engineers, artists, linguists) that has developed the most scalable Sign Language content creation pipeline, with plans to drive any digital character in all forms of media.
+            </p>
+            <p>    
+                Talk to me about solving challenging problems: <span  class="text-info">accessibility</span >, <span class="text-success">web 3</span>, <span class="text-danger">recycling</span> to name a few!
+            </p>
+            
+            <p>
+                Current involvements:
+                <ul>
+                    {% for item in page.involvements %}
+                        <li>
+                            {{ item.name }} (<a href="{{ item.url }}" target="_blank">{{ item.urlname }}</a>)
+                        </li>
+                    {% endfor %}
+                </ul>
+            </p>
+        </div>
+</div>
+
+

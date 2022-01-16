@@ -1,71 +1,56 @@
-# Where things are
-source:       .
-destination:  ./_site
-plugins_dir:  _plugins
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
-collections:
-  posts:
-    output:   true
+#
+# This file contains configuration flags to customize your site
+#
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      ["node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+# Name of your site (displayed in the navbar)
+name: Farmehr Farhour
 
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
+# Your site's title (e.g., Ben's Awesome Site, The GitHub Blog, etc.), used as part of the title tag like Home | Ben's Awesome Site.
+title: Farmehr Farhour
 
-# Plugins
-whitelist: []
-gems:      []
+# Link to avatar in the navbar (/assets/images/avatar.png). Leave empty if no logo desired. Two avatars for light and dark mode.
+# Avatar for light mode site
+lightavatar: /assets/images/FF-logos_black.png
+# Avatar for dark mode site
+darkavatar: /assets/images/FF-logos_white.png
 
-# Conversion
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
+# A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
+tagline: A personal website and blog
 
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-show_dir_listing: false
+# A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
+description: Farmehr Farhour is the co-founder and CTO of Kara Technologies, focusing on providing Sign Language access to content via AI-driven digital avatars.
 
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
+# The full URL to your site. Note: site.github.url will be used by default.
+url: https://ffarhour.com
 
-quiet:    false
-verbose:  false
-defaults: []
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
 
-liquid:
-  error_mode: warn
+# global author information
+author: farmehr-farhour
 
-# Markdown Processors
-rdiscount:
-  extensions: []
+# URL to a site-wide logo (e.g., /assets/your-company-logo.png)
+logo: /assets/images/FF-logos_black.png
 
-redcarpet:
-  extensions: []
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: G-BFH075W09G
 
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  input:          GFM
-  hard_wrap:      false
-  footnote_nr:    1
+permalink: /:year/:month/:day/:title/
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: \u0066\u0061\u0072\u006d\u0065\u0068\u0072\u0040\u006b\u0061\u0072\u0061\u002e\u0074\u0065\u0063\u0068
+  facebook:
+  github: 
+  instagram: 
+  linkedin: ffarhour
+  rss: # just type anything here for a working RSS icon
+  twitter: FFarhour
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
