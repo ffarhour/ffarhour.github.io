@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Posts
+title: Writing
 permalink: /posts/
 ---
 
 <div class="page">
-  <h1 class="page-title">Posts</h1>
+  <h1 class="page-title">Writing</h1>
   <p class="mt-4">
     I publish updates and long-form posts on LinkedIn. This page is a simple index of featured posts and related third-party articles.
   </p>
@@ -22,6 +22,16 @@ permalink: /posts/
     <li>
       <a href="https://www.linkedin.com/posts/engineeringnewzealand_engineered-for-life-kara-technologies-activity-7369488359796166656-jRRD?utm_source=share&utm_medium=member_desktop&rcm=ACoAABLGKeMBSFOl4QNysQDrZW_Ek2FcaMaANC4" target="_blank">Engineering New Zealand Te Ao Rangahau - Feature on Kara Technologies</a>
       <span class="text-muted"> - 2025</span>
+    </li>
+  </ul>
+
+  <h3 class="mt-4">Academic Papers</h3>
+  <ul>
+    <li>
+      <a href="/projects/cognitive-emergence/">Cognitive Emergence Simulation</a>
+      <span class="text-muted"> - CS 6795 · Cognitive Science · Georgia Tech · 2025</span>
+      <br>
+      <small class="text-muted">Investigating how coherent collective behavior emerges from populations of boundedly rational agents interacting through small-world networks.</small>
     </li>
   </ul>
 </div>
